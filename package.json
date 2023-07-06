@@ -1,7 +1,7 @@
 {
-  "name": "blk-design-system-react",
+  "name": "smartstockalert-website",
   "version": "1.2.2",
-  "description": "React version of BLK Design System by Creative Tim",
+  "description": "Smart Stock Alert WEbsite",
   "main": "index.js",
   "author": "Creative Tim",
   "license": "MIT",
@@ -9,28 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/creativetimofficial/blk-design-system-react.git"
   },
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
-  },
-  "homepage": "https://demos.creative-tim.com/blk-design-system-react/#/",
-  "keywords": [
-    "react",
-    "reactjs",
-    "blk",
-    "blk-react",
-    "design",
-    "design-react",
-    "system",
-    "system-react",
-    "design-system",
-    "design-system-react",
-    "blk-design",
-    "blk-design-react",
-    "blk-system",
-    "blk-system-react",
-    "blk-design-system",
-    "blk-design-system-react"
-  ],
   "dependencies": {
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
