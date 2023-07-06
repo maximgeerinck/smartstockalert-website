@@ -32,10 +32,14 @@ export default function PageHeader() {
       <div className="squares square7" />
       <Container>
         <div className="content-center brand">
-          <h1 className="h1-seo">BLK• React</h1>
+          <img
+            src={process.env.PUBLIC_URL + "/play_store_512.png"}
+            alt="Smart Stock Alert"
+          />
+          <h1 className="h1-seo">Smart Stock Alert</h1>
           <h3 className="d-none d-sm-block">
-            A beautiful Design System for Bootstrap 4 (reactstrap) and React.
-            It's Free and Open Source.
+            Get notified when your favourite stocks may be impacted because of
+            news, climate, manipulation, ...
           </h3>
         </div>
       </Container>

@@ -18,24 +18,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
-import {
-  Button,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip,
-} from "reactstrap";
+import { NavItem, NavLink, Nav, Container, Row, Col } from "reactstrap";
 
 export default function Footer() {
   return (
     <footer className="footer">
       <Container>
         <Row>
-          <Col md="3">
-            <h1 className="title">BLK•</h1>
+          <Col md="4">
+            <h1 className="title">Smart Stock Alert</h1>
           </Col>
           <Col md="3">
             <Nav>
@@ -45,11 +36,11 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/landing-page" tag={Link}>
-                  Landing
+                <NavLink to="/privacy-policy" tag={Link}>
+                  Privacy Policy
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink to="/register-page" tag={Link}>
                   Register
                 </NavLink>
@@ -58,11 +49,11 @@ export default function Footer() {
                 <NavLink to="/profile-page" tag={Link}>
                   Profile
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Col>
-          <Col md="3">
-            <Nav>
+          <Col md="2">
+            {/* <Nav>
               <NavItem>
                 <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
                   Contact Us
@@ -83,10 +74,10 @@ export default function Footer() {
                   License
                 </NavLink>
               </NavItem>
-            </Nav>
+            </Nav> */}
           </Col>
-          <Col md="3">
-            <h3 className="title">Follow us:</h3>
+          {/* <Col md="3"> */}
+          {/* <h3 className="title">Follow us:</h3>
             <div className="btn-wrapper profile">
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
@@ -124,8 +115,8 @@ export default function Footer() {
               <UncontrolledTooltip delay={0} target="tooltip318450378">
                 Follow us
               </UncontrolledTooltip>
-            </div>
-          </Col>
+            </div> */}
+          {/* </Col> */}
         </Row>
       </Container>
     </footer>
