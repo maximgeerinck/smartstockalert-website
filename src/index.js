@@ -27,6 +27,7 @@ import Index from "views/Index.js";
 // import LandingPage from "views/examples/LandingPage.js";
 // import RegisterPage from "views/examples/RegisterPage.js";
 // import ProfilePage from "views/examples/ProfilePage.js";
+import AuthPage from "views/AuthPage.js";
 import PrivacyPolicyPage from "views/PrivacyPolicyPage.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -35,6 +36,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Index />} />
+      <Route path="/auth" element={<AuthPage />} />
+
       <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
       {/* <Route path="/landing-page" element={<LandingPage />} />
       <Route path="/register-page" element={<RegisterPage />} />
