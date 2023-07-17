@@ -1,0 +1,22 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.smartstockalert.debug",
+      "sha256_cert_fingerprints": [
+        "4F:14:43:EE:25:9D:B3:3F:CE:97:8E:0E:55:CF:F8:09:8E:5A:6A:FD"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.smartstockalert",
+      "sha256_cert_fingerprints": [
+        "DD:49:56:04:93:8C:76:06:D4:05:F8:A3:E6:A7:0C:F6:E8:0C:83:8F"
+      ]
+    }
+  }
+]
