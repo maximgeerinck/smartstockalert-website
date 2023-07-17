@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "io.smartstockalert.debug",
       "sha256_cert_fingerprints": [
-        "19:A3:B9:9D:13:90:20:D6:F6:CE:10:82:E5:51:A5:40:DC:8E:9E:AF:B1:5F:AA:A5:AE:6A:17:28:8F:A5:69:96"
+        "19:A3:B9:9D:13:90:20:D6:F6:CE:10:82:E5:51:A5:40:DC:8E:9E:AF:B1:5F:AA:A5:AE:6A:17:28:8F:A5:69:96",
+        "34:F3:A8:80:AB:A9:F7:3D:81:CB:BC:AC:BA:CF:E6:F9:05:DD:56:13:75:28:05:F7:D8:63:4F:2F:81:99:92:3D"
       ]
     }
   },
