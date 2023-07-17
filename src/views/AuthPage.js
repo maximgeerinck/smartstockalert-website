@@ -47,7 +47,7 @@ export default function PrivacyPolicyPage() {
     };
   }, []);
   React.useEffect(() => {
-    redirect(`io.smartstockalert://login${window.location.search}`);
+    redirect(`io.smartstockalert.debug://login${window.location.search}`);
   }, []);
   return (
     <>
