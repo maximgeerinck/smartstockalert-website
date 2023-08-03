@@ -29,6 +29,7 @@ import Index from "views/Index.js";
 // import ProfilePage from "views/examples/ProfilePage.js";
 import AuthPage from "views/AuthPage.js";
 import PrivacyPolicyPage from "views/PrivacyPolicyPage.js";
+import ContactPage from "views/ContactPage.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -39,6 +40,7 @@ root.render(
       <Route path="/auth" element={<AuthPage />} />
 
       <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+      <Route path="/contact" element={<ContactPage />} />
       {/* <Route path="/landing-page" element={<LandingPage />} />
       <Route path="/register-page" element={<RegisterPage />} />
       <Route path="/profile-page" element={<ProfilePage />} /> */}
