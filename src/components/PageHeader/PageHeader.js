@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
 
 export default function PageHeader() {
   return (
@@ -41,6 +41,26 @@ export default function PageHeader() {
             Get notified when your favourite stocks may be impacted because of
             news, climate, manipulation, ...
           </h3>
+          <Row>
+            <Col>
+              <a href="https://apps.apple.com/us/app/smart-stock-alert/id6454791704">
+                <img
+                  src="/buttons/button-ios.png"
+                  alt="Download on IOS"
+                  height={74}
+                />
+              </a>
+            </Col>
+            <Col>
+              <a href="https://play.google.com/store/apps/details?id=io.smartstockalert">
+                <img
+                  src="/buttons/button-android.png"
+                  alt="Download on Android"
+                  height={73}
+                />
+              </a>
+            </Col>
+          </Row>
         </div>
       </Container>
     </div>

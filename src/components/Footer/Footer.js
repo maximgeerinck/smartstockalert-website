@@ -40,6 +40,11 @@ export default function Footer() {
                   Privacy Policy
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink to="/blog" tag={Link}>
+                  Blog
+                </NavLink>
+              </NavItem>
               {/* <NavItem>
                 <NavLink to="/register-page" tag={Link}>
                   Register
