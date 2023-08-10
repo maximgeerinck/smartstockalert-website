@@ -1,0 +1,18 @@
+{
+  "rewrites": [
+    {
+      "source": "/blog/:path*/",
+      "destination": "https://smart-stock-alert-blog.ghost.io/blog/:path*/"
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "https://smart-stock-alert-blog.ghost.io/blog/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/blog/:path*",
+      "headers": [{ "key": "x-forwarded-host", "value": "smartstockalert.io" }]
+    }
+  ]
+}
