@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/blog/:path*/",
-      "destination": "https://smart-stock-alert-blog.ghost.io/blog/:path*/"
+      "destination": "https://blog.smartstockalert.io/blog/:path*/"
     },
     {
       "source": "/blog/:path*",
-      "destination": "https://smart-stock-alert-blog.ghost.io/blog/:path*"
+      "destination": "https://blog.smartstockalert.io/blog/:path*"
     }
   ],
   "headers": [
