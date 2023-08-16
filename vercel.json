@@ -1,6 +1,14 @@
 {
   "rewrites": [
     {
+      "source": "/blog/sitemap.xml",
+      "destination": "https://blog.smartstockalert.io/blog/sitemap.xml"
+    },
+    {
+      "source": "/blog/sitemap.xsl",
+      "destination": "https://blog.smartstockalert.io/blog/sitemap.xsl"
+    },
+    {
       "source": "/blog/:path*/",
       "destination": "https://blog.smartstockalert.io/blog/:path*/"
     },
