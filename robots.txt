@@ -1,5 +1,0 @@
-Sitemap: https://ghost.org/sitemap.xml
-
-User-agent: *
-
-Allow: /
