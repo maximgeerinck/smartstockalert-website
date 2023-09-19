@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Puritan';
+    src: url('Puritan-Italic.woff2') format('woff2'),
+        url('Puritan-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Puritan';
+    src: url('Puritan-BoldItalic.woff2') format('woff2'),
+        url('Puritan-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Puritan';
+    src: url('Puritan-Regular.woff2') format('woff2'),
+        url('Puritan-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Puritan';
+    src: url('Puritan-Bold.woff2') format('woff2'),
+        url('Puritan-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Italic.woff2') format('woff2'),
+        url('OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.woff2') format('woff2'),
+        url('OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Mulish-ExtraLightItalic.woff2') format('woff2'),
+        url('Mulish-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Mulish-ExtraLight.woff2') format('woff2'),
+        url('Mulish-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
