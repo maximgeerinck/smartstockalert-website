@@ -3,7 +3,7 @@ import { createClient } from "@supabase/supabase-js";
 const supabaseUrl =
   process.env.NODE_ENV === "production"
     ? "https://iqmtrfjsnvcofqtstrei.supabase.co"
-    : "http://192.168.0.219:54321";
+    : "http://192.168.0.242:54321";
 const supabaseAnonKey =
   process.env.NODE_ENV === "production"
     ? "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlxbXRyZmpzbnZjb2ZxdHN0cmVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODcxMDAxMjgsImV4cCI6MjAwMjY3NjEyOH0.Ca-JtRLW_2ojOfgajJTJ-hFVrheSP4eEoqLrq8r6FGM"
